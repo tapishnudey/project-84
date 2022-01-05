@@ -20,7 +20,7 @@ function uploadimg() {
 	ctx.drawImage(img_imgTag, img_x, img_y, img_width, img_height);
 }
 
-window.addEventListener(keydown, my_keydown);
+window.addEventListener(keydown, 'my_keydown');
 
 function my_keydown(e)
 {
